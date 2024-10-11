@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav1{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav1-left{
+    height: 100%;
+    width: 30%;
+    background-color:black;
+    padding: 10px 20px;
+
+}
+#nav1-left i{
+    color: white;
+    font-size: 40px;
+}
+#nav1-middle{
+    height: 100%;
+    width: 35%;
+    background-color: black;
+    display: flex;
+    padding: 10px 10px;
+
+}
+ #nav1-middle #A{
+font-size: 20px;
+}
+#nav1-middle i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(40, 38, 38, 0.297);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+
+}
+#nav1-middle button{
+    width: 450px;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    background-color: rgba(40, 38, 38, 0.292);
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.736);
+
+
+}
+#nav1-middle button h5{
+    color: rgba(231, 226, 226, 0.673);
+}
+#nav1-middle button i{
+    color: white;
+    margin-right: 15px ;
+}
+#nav1-right{
+    height: 100%;
+    width: 20%;
+    background-color:black;
+    display: flex;
+    padding: 10px 0px;
+}
+#sign{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    color: rgba(241, 235, 235, 0.756);
+    border: none;
+}
+#log{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+#middle{
+    height: calc(100% - 18vh);
+    width: 100%;
+    background-color: cyan;
+    display: flex;
+}
+#middle-left{
+    width: 24%;
+    height: 100%;
+    background-color:black;
+}
+#middle-right{
+    width: 76%;
+    height: 100%;
+    background-color:black;
+}
+#left-top{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(18, 16, 16, 0.34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px
+}
+#left-top h3{
+    color: white;
+
+}
+#left-top h1{
+    color: white;
+}
+#left-middle1{
+    height: 150px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgba(243, 231, 231, 0.092);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    color: white;
+}
+#left-middle2{
+    height: 150px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgba(21, 20, 20, 0.323);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+
+}
+#play{
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+}
+#left-last{
+    height: calc(100% - 400px);
+    width: 100%;
+    padding: 10px 20px;
+}
+#left-last a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.618);
+    text-decoration: none;
+}
+#left-last h4{
+    color: white;
+    margin-top: 10px;
+}
+#eng{
+    display: flex;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+#eng i{
+    font-size: 30px;
+    color: white;
+}
+#eng h3{
+    color: white;
+
+}
+#left-middle2{
+    color: white;
+
+
+}
+#pod{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+#nav2{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(18, 17, 17, 0.438);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2 h2{
+    color: white;
+
+}
+#nav2 h4{
+    color: white;
+}
+#nav3{
+    height: 220px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.box{
+    width: 16%;
+    height: 100%;
+    background-color:black;
+    position: relative;
+
+}
+.elem{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+}
+.elem1 h4{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.elem1 h5{
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+}
+#bar1{
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+#nav4{
+    height: 218px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+
+}
+#bar1 h1{
+    color: white;
+}
+#bar1 h3{
+    color: white;
+}
+.box1{
+    width: 14%;
+    height: 100%;
+    background-color:black;
+}
+.elem2{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+
+}
+.elem3{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+}
+.elem2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.elem3 h3{
+    color: white;
+}
+.elem3 h4{
+    color: rgba(255, 255, 255, 0.455);
+}
+#last{
+    height: 50px ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+.box i{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    opacity: 0;
+
+}
+.box:hover i{
+opacity: 1;
+cursor: pointer;
+
+}
+.box:hover{
+      width: 18%;
+      height: 110%;
+      background: linear-gradient(rgba(35, 35, 35, 0.795),rgba(113, 109, 109, 0.071));
+}
+#last input{
+    color: black;
+    width: 200px;
+}
+.box1 i{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    opacity: 0;
+}
+.box1:hover i{
+    opacity: 1;
+    cursor: pointer;
+}
+.box1:hover {
+    width: 18%;
+      height: 110%;
+      background: linear-gradient(rgba(35, 35, 35, 0.795),rgba(113, 109, 109, 0.071));
+}

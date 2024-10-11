@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#box{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    background-color: blue;
+
+}
+@keyframes anime{
+    0%{
+        left: 0%;
+        top: 0%;
+    background-color: salmon;
+    }
+    50%{
+        top: 0%;
+        left: 75%;
+        background-color:skyblue ;
+        rotate: 360deg;
+    }
+    100%{
+        left: 75%;
+        top: 70%;
+        background-color:aqua;
+        rotate: 360deg;
+    }
+}

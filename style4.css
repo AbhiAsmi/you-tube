@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    padding-top: 0.1px;
+    background-color: black;
+    position: relative;
+}
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+body{
+    background-color:white;
+}
+#nav{
+    height: 8vh;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+
+}
+#nav h2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    border-right: solid 2px white;
+    color: white;
+
+
+}
+#nav h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: monument;
+    color: white;
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;
+                
+}
+#nav h1::after{
+    content: "©️";
+    font-size:1vw;
+
+}
+#nav h2:nth-last-child(1){
+    width: 10%;
+}
+#centre{
+    height: 85%;
+    width: 100%;
+    padding: 30px 70px;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 45%;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    padding: 3vw;
+}
+#over1{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+#over2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4px solid white;
+}
+#over2 h3 img{
+    height: 70px;
+    width: 70px;
+
+}
+#over1 h2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#scroll{
+    height:200px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     background-color: black;
+    padding-bottom: 40px;
+    
+    
+
+}
+#container img{
+    height: 92%;
+    width: 10%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin:40px;
+}   
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+#bottom{
+    height: 10vh;
+    width: 100%;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+    background-color: black;
+    margin-bottom: 5px;
+
+    
+    
+}
+#bottom h4{
+font-size: 1vw;
+padding: 15px 20px;
+font-weight: 400;
+border-radius: 50%;
+font-style: italic;
+height: 1.5vh;
+width: 1.5vw;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-shadow:     0px 0px 5px cyan,
+                 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan;
+}
+
+
+#bottom h4:hover{
+    border: 2px solid cyan;
+    
+}
+#bottom1{
+    height:80%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-bottom: 5px ;
+}
+#bottom1-left{
+    width: 45%;
+    height: 95%;
+}
+#bottom1-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#bottom1-right{
+    width: 40%;
+    height: 85%;
+    
+}
+#bottom1-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#bottom h1{
+    color: white;
+    text-shadow: 0px 0px 5px cyan,
+                 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan;
+}
+#bottom1-right p{
+    color: white;
+}
+#bottom2{
+    height: 75%;
+    width: 100%;
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 5px;
+}
+#bottom2-left{
+    height: 90%;
+    width:45%;
+
+}
+#bottom2-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#bottom2-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#bottom2-left h1{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+#bottom2-right{
+    height: 90%;
+    width: 45%;
+}
+#bottom2-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#bottom3{
+    height: 80%;
+    width: 100%;
+    padding: 2vw;
+    background-color: black;
+    margin-bottom: 5px;
+    
+}
+#bottom3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:medium;
+
+}
+#bottom4{
+    height: 70%;
+    width:100%;
+    background-color: black;
+    padding: 0px 4vw;
+
+
+}
+#bottom4>h1{
+    padding-left: 45%;
+    color: white;
+}
+#elem{
+    height: 18%;
+    width: 100%;
+    border-top: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+
+}
+#elem h2{
+    color: white;
+    width: 6%;
+    padding-top: 8px;
+}
+.elem1{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+#marque{
+    height: 10%px;
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    background-color: black;
+
+}
+#marque h1{
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-style: monument;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 5px cyan,
+                 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan;
+
+}
+@keyframes animation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+     transform: translateX(calc(-100% - 20px));
+    }
+}
+#elem img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#last{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+
+    
+}
+.last2{
+    height: 90%;
+    width: 28%;
+    background-color:black;
+    padding: 20px;
+
+}
+.last2 p{
+    font-size: 24px;
+    color:white;
+}
+.last2 h1{
+    font-size: 50px;
+    color: white;
+}
+#photo{
+    height: 60%;
+    width: 100%;
+}
+#photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#bottom5{
+    height: 90%;
+    width: 100%;
+    background-color:black;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    display: flex;
+
+}
+#bottom6{
+    height: 58%;
+    width: 100%;
+    background-color: black;
+}
+#bottom5 h1{
+    width: 25%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: monument;
+    text-shadow: 0px 0px 10px cyan,
+                 0px 0px 20px cyan,
+                 0px 0px 40px cyan,
+                 0px 0px 80px cyan;  
+}
+#bottom5 h2{
+    width: 18%;
+    height: 100%;
+    font-size: 2vw;
+    color:cyan;
+    text-align: center;
+    border-right: 2px solid white;
+}
+#elements{
+    width: calc(100% - 61%);
+
+}
+#element1{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#element1 h3{
+    color:cyan;
+    font-size: 20px;
+    
+}
+#element2{
+    height: calc(100% - 40%);
+    width: 100%;
+    background-color:black;
+}
+#element3{
+    height:50px;
+    width: 100%;
+    background-color:black;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid white;
+    border-top: 2px solid white;
+    margin-bottom: 20px;
+
+}
+#element3 i{
+    font-size: 40px;
+    color:white;
+}
+#element2 p{
+    color:cyan;
+    font-size: 20px;
+    font-weight: 300;
+}

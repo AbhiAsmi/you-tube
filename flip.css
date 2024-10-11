@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+.main1{
+    height: 100%;
+    width: 28%;
+    background-color:white;
+    transition: 2s;
+}
+.main1:hover{
+    background-color: aqua;
+    transform: rotateY(180deg);
+    
+}
+@keyframes animation {
+
+    
+}
